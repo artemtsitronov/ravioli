@@ -22,12 +22,12 @@ cargo install ravioli
 ## Usage
 
 ```bash
-ascii3d                              # spin the built-in demo cube
-ascii3d -O model.obj                 # spin your own mesh
-ascii3d -O model.obj -S 2.0          # faster rotation
-ascii3d -O model.obj -C 3.0          # camera further back
-ascii3d -O model.obj -M solid        # solid block glyphs
-ascii3d -O model.obj -R false        # disable live terminal-resize
+ravioli                              # spin the built-in demo cube
+ravioli -O model.obj                 # spin your own mesh
+ravioli -O model.obj -S 2.0          # faster rotation
+ravioli -O model.obj -C 3.0          # camera further back
+ravioli -O model.obj -M solid        # solid block glyphs
+ravioli -O model.obj -R false        # disable live terminal-resize
 ```
 
 | Flag | Long form | Default | Description |
