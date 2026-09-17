@@ -37,7 +37,3 @@ ascii3d -O model.obj -R false        # disable live terminal-resize
 | `-C` | `--camera-distance` | `1.5` | Distance of the camera from the object |
 | `-M` | `--mode` | `textured` | `solid` or `textured` |
 | `-R` | `--resize` | `true` | Re-detect terminal size live while running |
-
-## License
-
-MIT — see [LICENSE](./LICENSE).
