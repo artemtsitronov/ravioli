@@ -1,6 +1,6 @@
 [package]
 name = "ravioli"
-version = "0.1.0"
+version = "0.1.01"
 edition = "2021"
 description = "An almost-zero dependencies ASCII 3D OBJ viewer. Animations, and RGB-colored shading is supported."
 license = "MIT"
