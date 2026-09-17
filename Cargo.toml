@@ -1,0 +1,18 @@
+[package]
+name = "ravioli"
+version = "0.1.0"
+edition = "2021"
+description = "An almost-zero dependencies ASCII 3D OBJ viewer. Animations, and RGB-colored shading is supported."
+license = "MIT"
+
+[[bin]]
+name = "ravioli"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+terminal_size = "0.4"
+
+[profile.release]
+opt-level = 3
+lto = true
